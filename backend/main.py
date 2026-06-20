@@ -13,7 +13,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
 class PipelineRequest(BaseModel):
     nodes: List[Any]
     edges: List[Any]

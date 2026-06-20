@@ -31,7 +31,7 @@ export const SubmitButton = () => {
       setDialogOpen(true);
     } catch (err) {
       setError(
-        `Failed to submit pipeline.\nMake sure the backend is running at http://localhost:8000\n\nError: ${err.message}`
+        `Failed to submit pipeline.\nError: ${err.message}`
       );
       setDialogOpen(true);
     }

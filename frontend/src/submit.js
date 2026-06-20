@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useStore } from './store';
 
-const API_URL = 'http://localhost:8000/pipelines/parse';
+const API_URL = 'https://frontendtechnicalassessment-production.up.railway.app/pipelines/parse';
 
 export const SubmitButton = () => {
   const nodes = useStore((state) => state.nodes);
